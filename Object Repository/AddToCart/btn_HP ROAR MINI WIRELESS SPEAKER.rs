@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_HP ROAR MINI WIRELESS SPEAKER</name>
+   <tag></tag>
+   <elementGuidId>9bcd228b-84f2-459e-8df2-8cf9c2315b7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='product']/td[2]/a/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>b32833df-84bd-4e05-82b7-fd9faefa78a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>1db2a7b8-7427-4293-ae93-67f3c244a83c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HP ROAR MINI WIRELESS SPEAKER</value>
+      <webElementGuid>682cbee4-ef64-4916-85be-1c98d21fa4a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product&quot;)/td[2]/a[1]/h3[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>e74cee89-6c98-407d-9b05-42f70e253c59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='product']/td[2]/a/h3</value>
+      <webElementGuid>0cc99385-60e6-4558-a5fa-0dbd1496e5ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your shopping cart is empty'])[1]/following::h3[1]</value>
+      <webElementGuid>3e25ddcd-efd7-4c0f-8d3f-91001315ec80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0)'])[1]/following::h3[1]</value>
+      <webElementGuid>e5e22e7b-10a9-4531-8441-199e2497ed70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTY: 2'])[1]/preceding::h3[1]</value>
+      <webElementGuid>6f35165e-52a1-4f68-a70b-fb04bbf303f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>87ba6e6c-272d-44d6-a136-04f8e2ca6e3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'HP ROAR MINI WIRELESS SPEAKER' or . = 'HP ROAR MINI WIRELESS SPEAKER')]</value>
+      <webElementGuid>3749cc7f-4b57-48d6-be63-ec4ea65de5a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

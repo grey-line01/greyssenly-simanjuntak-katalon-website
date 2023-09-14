@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>5de90b8f-5b7d-4eb3-8543-daa1bbdb4b62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='output']/div/div[2]/a[4]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>66f4b35e-b76e-429b-9925-e47ebbc8cec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-src</name>
+      <type>Main</type>
+      <value>/catalog/fetchImage?image_id=4600</value>
+      <webElementGuid>d2869eed-ae9e-4eaf-8704-bf711dd57f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/catalog/fetchImage?image_id=4600</value>
+      <webElementGuid>9fd9b40e-bff5-4cfe-a5a1-c939cdcf0f42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;output&quot;)/div[@class=&quot;searchPopUp&quot;]/div[@class=&quot;top6Products&quot;]/a[@class=&quot;product ng-scope&quot;]/img[1]</value>
+      <webElementGuid>97e8fdf6-a73a-415e-958b-7940f8f93a59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='output']/div/div[2]/a[4]/img</value>
+      <webElementGuid>63a45193-80fd-4de3-b8cb-2d7fae0fa729</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$129.00'])[1]/following::img[1]</value>
+      <webElementGuid>9d7ecc5f-fcb6-497b-b6fe-9f2811d858c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$269.99'])[1]/following::img[2]</value>
+      <webElementGuid>123d6de0-08ac-48a1-a555-4ec9c2da2c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$44.99'])[1]/preceding::img[1]</value>
+      <webElementGuid>25ad6f62-0ba9-474c-b6d7-ef7b19045c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$169.99'])[1]/preceding::img[2]</value>
+      <webElementGuid>cd32c042-2561-47ae-bfed-86c582a7400e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/img</value>
+      <webElementGuid>b46b32d5-4668-445c-a787-715a88da001f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/catalog/fetchImage?image_id=4600']</value>
+      <webElementGuid>555ef8c9-29e5-41ca-bde7-c77eb7634fb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
