@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44af9746-06c0-4adf-aa3e-a1611e326000</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>153ebfe6-9a5a-4e16-938f-3c17489d313c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'langit'</defaultValue>
+      <description></description>
+      <id>153ebfe6-9a5a-4e16-938f-3c17489d313c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
