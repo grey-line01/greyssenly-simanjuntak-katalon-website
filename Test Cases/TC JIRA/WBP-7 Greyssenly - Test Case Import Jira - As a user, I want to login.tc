@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Greyssenly - Test Case Import Jira - As a user, I want to login 
+Description: @Login
+
+Feature: User Login
+
+As a registered user
+
+I want to be able to log in to my account
+
+So that I can access Advantage Online Shopping
+
+@Valid 
+
+Scenario: Login with valid username and valid password
+
+Given I am on the login page
+
+When I enter my valid username &quot;langit&quot; and password &quot;Langit123&quot;
+
+And I click the &quot;Log In&quot; button
+
+Then I should be able to login successfully
+
+#Examples:
+| username | password |
+| langit        | Langit123 |
+
+@Invalid
+
+Scenario: Login with invalid username and password
+
+Given I am on the login page
+
+When I enter my invalid username &quot;biru&quot; and password &quot;langit1&quot;
+
+And I click the &quot;Log In&quot; button
+
+Then I should see an error message &quot;Incorrect username or password&quot;
+
+And I should remain on the login page
+
+#Examples:
+| username | password |
+| biru           | langit1     |
+
+@Empty
+
+Scenario: Empty Fields
+
+Given I am on the login page
+
+When I leave the username and password fields empty
+
+And I click the &quot;Log In&quot; button
+
+Then I should see an error message &quot;Username field is required&quot;
+
+And I should an error message &quot;Password field is required&quot;
+
+And I should remain on the login page
+
+#Examples:
+| username | password |
+|                  |                 |
+
+ </description>
+   <name>WBP-7 Greyssenly - Test Case Import Jira - As a user, I want to login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10014&quot;:&quot;WBP-4&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00023:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ksat08git.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;WBP&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Website Based Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Greyssenly - Test Case Import Jira - As a user, I want to login &quot;,&quot;description&quot;:&quot;@Login\n\nFeature: User Login\n\nAs a registered user\n\nI want to be able to log in to my account\n\nSo that I can access Advantage Online Shopping\n\n@Valid \n\nScenario: Login with valid username and valid password\n\nGiven I am on the login page\n\nWhen I enter my valid username \&quot;langit\&quot; and password \&quot;Langit123\&quot;\n\nAnd I click the \&quot;Log In\&quot; button\n\nThen I should be able to login successfully\n\n#Examples:\n| username | password |\n| langit        | Langit123 |\n\n@Invalid\n\nScenario: Login with invalid username and password\n\nGiven I am on the login page\n\nWhen I enter my invalid username \&quot;biru\&quot; and password \&quot;langit1\&quot;\n\nAnd I click the \&quot;Log In\&quot; button\n\nThen I should see an error message \&quot;Incorrect username or password\&quot;\n\nAnd I should remain on the login page\n\n#Examples:\n| username | password |\n| biru           | langit1     |\n\n@Empty\n\nScenario: Empty Fields\n\nGiven I am on the login page\n\nWhen I leave the username and password fields empty\n\nAnd I click the \&quot;Log In\&quot; button\n\nThen I should see an error message \&quot;Username field is required\&quot;\n\nAnd I should an error message \&quot;Password field is required\&quot;\n\nAnd I should remain on the login page\n\n#Examples:\n| username | password |\n|                  |                 |\n\n &quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;greyslya07@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;greys lya&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aa288ae37-b76b-42cd-9670-e9825fb8a750&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;greyslya07@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;greys lya&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aa288ae37-b76b-42cd-9670-e9825fb8a750&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/WBP-7/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/10017&quot;,&quot;key&quot;:&quot;WBP-7&quot;,&quot;id&quot;:10017}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>b4accab6-f76a-4464-af4f-6336ef64a15c</testCaseGuid>
+</TestCaseEntity>
